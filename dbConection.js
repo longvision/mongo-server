@@ -4,7 +4,7 @@ import dotenv from 'dotenv' //importing the dotenv package to read the .env file
 
 dotenv.config() //this will read the .env file and add the variables to the process.env object
 
-//lets create the server first using express.js 
+//this is the url to connect to the database
 const URL = process.env.MONGO_URL;
 
 
