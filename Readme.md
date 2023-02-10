@@ -7,7 +7,7 @@
 4- make an API call using the command:
 ````
         curl - X POST \
-         http://localhost:3000/users \
+         http://localhost:3000/create \
          -H 'Content-Type: application/json' \
          -d '{
          "name": "John Doe",
