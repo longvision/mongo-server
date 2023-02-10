@@ -12,12 +12,12 @@
 
 ````
         curl - X POST \
-         http://localhost:3000/create \
-         -H 'Content-Type: application/json' \
-         -d '{
-         "name": "John Doe",
-             "email": "johndoe@example.com",
-                 "password": "secretpassword"
+        http://localhost:3000/create \
+        -H 'Content-Type: application/json' \
+        -d '{
+        "name": "John Doe",
+        "email": "johndoe@example.com",
+        "password": "secretpassword"
      }'
   
  ````
@@ -38,4 +38,4 @@ express.js: `npm install express`
 
 mongoose: `npm install mongoose`
 
-[reference video](https://www.mongodb.com/developer/languages/javascript/getting-started-with-mongodb-and-mongoose/)
+[Reference article](https://www.mongodb.com/developer/languages/javascript/getting-started-with-mongodb-and-mongoose/)
