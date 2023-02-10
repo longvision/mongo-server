@@ -32,11 +32,10 @@
 
 3. create a node server using express.js framework on the server.js file.
 
-4. install the following dependencies :
+4. install the following dependencies:
 
-        express.js 
-        `npm install express`
-        mongoose
-        `npm install mongoose`
+express.js: `npm install express`
+
+mongoose: `npm install mongoose`
 
 [reference video](https://www.mongodb.com/developer/languages/javascript/getting-started-with-mongodb-and-mongoose/)
