@@ -1,2 +1,18 @@
 1- create a .env file and put the content of the .env.example file there.
 2- Put the url on the .env file.
+
+3- run the server with 
+`node server.js`
+
+4- make an API call using the command:
+````
+        curl - X POST \
+         http://localhost:3000/users \
+         -H 'Content-Type: application/json' \
+         -d '{
+         "name": "John Doe",
+             "email": "johndoe@example.com",
+                 "password": "secretpassword"
+     }'
+  
+ ````
