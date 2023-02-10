@@ -5,7 +5,7 @@
 `node server.js`
 
 4- make an API call using the command:
-```
+````
         curl - X POST \
          http://localhost:3000/users \
          -H 'Content-Type: application/json' \
@@ -14,4 +14,5 @@
              "email": "johndoe@example.com",
                  "password": "secretpassword"
      }'
-    ```
+  
+ ````
