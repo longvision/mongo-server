@@ -22,7 +22,7 @@
   
  ````
 
-## Steps and description of the project:
+## Steps and how it was created:
 
 0. create a new folder called models, and create inside a new file called user.js
 
