@@ -1,9 +1,12 @@
 import express from 'express' //importing the express.js server framework
 import connection from './dbConection.js' //importing the connection function from the dbConnection.js file
 import User from './models/user.js' //importing the user schema from the user.js file
+import dotenv from 'dotenv' //importing the dotenv package to read the .env file
 
+dotenv.config() //this will read the .env file and add the variables to the process.env object
 
 //lets create the server first using express.js 
+const URL = process.env.MONGO_URL;
 
 const app = express() //creating the express server
 
@@ -16,7 +19,7 @@ app.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`)
 })
 
-connection() //calling the connection function from the dbConnection.js file
+connection(URL) //calling the connection function from the dbConnection.js file
 
 //lets create the database conection using mongodb
 app.post('/create', async (req, res) => { //<---async keyword is used here
